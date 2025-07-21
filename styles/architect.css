@@ -136,6 +136,32 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%); 
 }
+.features{
+    gap: 80px;
+    max-width: 1440PX;
+}
+#feature-section-tittle{
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.feature-card{
+    padding: 10px;
+    box-shadow: 0 4px 30px 0 #727272;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 420px;
+    height: 150PX;
+}
+.feature-card .feature-tittle{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.features img{
+    max-width: 500px;
+    height: 950px;
+}
 @media screen and (max-width: 576px) {
     .navbar, .link-items, .teams, .sponsor-companies{
         flex-direction: column;
